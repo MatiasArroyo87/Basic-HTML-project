@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo Web</title>
+</head>
+<style>
+body {
+  background: white;
+  color: black;
+}
+
+.dark {
+  background: #121212;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+<button id="botonModo" onclick="cambiarModo()">Modo oscuro</button>
+
+<script>
+function cambiarModo() {
+  document.body.classList.toggle("dark");
+
+  let boton = document.getElementById("botonModo");
+
+  if (document.body.classList.contains("dark")) {
+    boton.textContent = "Modo claro";
+  } else {
+    boton.textContent = "Modo oscuro";
+  }
+}
+
+</script>
+<center>
+<h1>Desarrollo Web</h1>
+</center>
+
+    <p style="font-family: Arial, Helvetica, sans-serif;">El desarrollo web es el proceso de construir y mantener sitios y aplicaciones que se acceden mediante la World Wide Web. Se trata de una disciplina híbrida que combina lenguajes de marcado, estilos, lógica de negocio y diseño de experiencia para crear interfaces interactivas, eficientes y atractivas tanto en ordenadores de escritorio como en dispositivos móviles. En la práctica, el desarrollo web implica diseñar la estructura de una página, aplicar estilos visuales, añadir interactividad y, cuando la aplicación es dinámica, comunicarse con un servidor que procesa datos y devuelve respuestas a través de HTTP o WebSocket.</p>
+
+<center><img src="descarga1.jpeg"></center>
+
+<h2>Solicitudes web</h2>
+
+     <p style="font-family: Arial, Helvetica, sans-serif;">Cuando un usuario visita una página, el proceso comienza con una solicitud HTTP enviada desde el navegador al servidor. El servidor interpreta la URL y decide qué recurso entregar. Si la página es estática, devuelve simplemente los archivos HTML, CSS y JavaScript; si es dinámica, ejecuta código en el servidor (por ejemplo, con Node.js, Python, PHP, Java o .NET) que puede leer o escribir en una base de datos, aplicar lógica de negocio y generar HTML, JSON u otro formato. El servidor responde con el contenido, que el navegador descarga y renderiza. El CSS controla la presentación, mientras que el JavaScript ejecuta la lógica del lado del cliente, actualizando el DOM o comunicándose de nuevo con el servidor mediante AJAX o WebSocket para obtener datos adicionales. Los datos del usuario pueden guardarse en cookies, localStorage o en la base de datos del servidor, y todo este intercambio se repite cada vez que el usuario interactúa con la aplicación.</p>
+
+<center><img src="descarga2.jpeg"></center>
+
+
+<center><h2>Algunos lenguajes son: </h2></center>
+<center>
+<details>
+<summary>HTML5</summary>
+    <p>El lenguaje de marcado que estructura el contenido de la página. Incluye elementos semánticos y multimedia, como video y audio.</p>
+</details>
+
+
+<details>
+<summary>JavaScript (ES6+)</summary>
+    <p>Es la columna vertebral de la interactividad tanto en el cliente como en el servidor (Node.js). Su modelo de asíncronía, promesas y async/await facilita la comunicación con APIs.</p>
+</details>
+
+
+<details>
+<summary>Java y C#</summary>
+    <p>Son opciones habituales en entornos empresariales, con Spring Boot y ASP.NET, respectivamente.</p>
+</details>
+
+
+<details>
+<summary>Node.js</summary>
+    <p>Permite ejecutar JavaScript en el servidor. Express, NestJS y Koa son frameworks populares que simplifican la creación de APIs REST o GraphQL.</p>
+</details>
+
+<a href="https://coursera.org/share/9c8c3dc8330d26e2b4378d77b9bea7dd">Aprender más sobre desarrollo web en coursera.</a>
+</center>
+
+<center><img src="descarga3.jpeg"></center>
+
+<h2>¿Como funciona?</h2>
+
+<ul>1. Planificación: se definen los requisitos, el público objetivo y se crea una lista de funcionalidades.</ul>
+
+<ul>2. Diseño UI/UX: se esbozan wireframes y prototipos (con Figma, Adobe XD) y se eligen colores, tipografías y patrones de interacción.
+</ul>
+<ul>3. Desarrollo front‑end: se escribe el HTML, se aplican estilos con CSS y se añade lógica con JavaScript o un framework. Se prueba la compatibilidad entre navegadores.
+</ul>
+
+<ul>4. Desarrollo back‑end: se configura el servidor, la base de datos y se crean las rutas API que expongan los datos necesarios. Se implementa autenticación, autorización y lógica de negocio.
+</ul>
+
+<ul>5. Testing: se ejecutan pruebas unitarias, de integración y de extremo a extremo para asegurar la calidad del código.
+</ul>
+
+<ul>6. Despliegue: la aplicación se publica en un entorno de staging y, una vez validada, se despliega en producción. Herramientas como Vercel, Netlify, Heroku o servicios en la nube (AWS, Azure, DigitalOcean) permiten publicar con una sola línea de comando. Se configura dominio y certificado SSL (Let’s Encrypt).
+</ul>
+
+<ul>7. Monitoreo y mantenimiento: se vigilan logs, métricas y rendimiento con herramientas como Sentry, New Relic o Google Analytics, y se actualizan dependencias y se corrigen errores según el feedback de los usuarios.</p>
+</ul>
+
+<center><img src="descarga4.jpeg"></center>
+
+<h2>Conclusión sobre el desarrollo web</h2>
+
+    <p style="font-family: Arial, Helvetica, sans-serif;">El desarrollo web no es solo codificar una página; es diseñar una experiencia completa que combine la presentación visual, la interacción intuitiva y la lógica de negocio detrás de escena. Al dominar HTML, CSS y JavaScript, y al elegir el stack de backend que mejor se adapte al proyecto, se pueden crear aplicaciones robustas, seguras y escalables. La adopción de buenas prácticas de diseño, rendimiento, accesibilidad y seguridad, junto con un flujo de trabajo automatizado de CI‑CD y pruebas rigurosas, garantiza que la solución no solo funcione, sino que evolucione con las necesidades del negocio y de sus usuarios.</p>
+<center>
+<h3>Saber más:</h3>
+<a href="https://youtu.be/rWfditAgAfA?si=NnyCWlb8HdGEyfVV">Video Desarrollo Web</a>
+<h3>Cursos gratuitos:</h3>
+<a href="https://www.freecodecamp.org/learn">freeCodeCamp</a>
+</center>
+</body>
+</html>
